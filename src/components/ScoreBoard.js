@@ -732,11 +732,17 @@ const ScoreBoard = (toggleComponent) => {
       }
     }
   }
+  // handle run
   const handleRun = (run) => {
     if (isNoBall) {
       setCurrentRunStack((state) => [...state, 'nb' + run])
       removeNoBallEffect()
-    } else {
+    }
+    else if(isRunOut){
+      setCurrentRunStack((state) => [...state, 'W' + run])
+      removeRunOutEffect()
+    }
+    else {
       setBallCount(ballCount + 1)
       setCurrentRunStack((state) => [...state, run])
     }
@@ -874,7 +880,6 @@ const ScoreBoard = (toggleComponent) => {
     setExtras((state) => ({
       ...state,
       total: state.total,
-      noBall: state.noBall,
     }))
     addRunOutEffect()
   }
