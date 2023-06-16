@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cricket-score-saver/static/css/main.4ca818da.css",
+    "main.js": "/cricket-score-saver/static/js/main.e2224ee6.js",
+    "static/js/787.b9e9c76f.chunk.js": "/cricket-score-saver/static/js/787.b9e9c76f.chunk.js",
+    "index.html": "/cricket-score-saver/index.html",
+    "main.4ca818da.css.map": "/cricket-score-saver/static/css/main.4ca818da.css.map",
+    "main.e2224ee6.js.map": "/cricket-score-saver/static/js/main.e2224ee6.js.map",
+    "787.b9e9c76f.chunk.js.map": "/cricket-score-saver/static/js/787.b9e9c76f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ca818da.css",
+    "static/js/main.e2224ee6.js"
+  ]
+}
